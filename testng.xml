@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="true">
+    <test verbose="1" preserve-order="true" name="C:/Users/abhilasha/IdeaProjects/learnJava" parallel="tests" allow-return-values="true">
+        <classes>
+            <class name="pages.ExamplesPage">
+                <methods>
+                    <include name="autoFillform" />
+                    <include name="scrollingElements"/>
+                    <include name="switchWindow"/>
+                    <include name="switchWindowAlert"/>
+                    <include name="javaScript"/>
+                    <include name="dragAndDrop"/>
+                    <include name="radiobtn"/>
+                    <include name="datapicker"/>
+                    <include name="dropdownMenu"/>
+                    <include name="fileupload"/>
+                    <include name="forms"/>
+                </methods>
+            </class>
+            <class name="pages.FormPage">
+                <methods>
+                    <include name="form"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
